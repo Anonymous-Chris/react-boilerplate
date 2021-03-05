@@ -1,3 +1,42 @@
 .App {
   text-align: center;
 }
+
+.header{
+  background-color: gray;
+  height: 7vh;
+  font-size: 20px;
+ 
+}
+
+.home_logo{
+  display: inline-block;
+  height: 7vh;
+  float: left;
+  padding-right: 40px;
+ }
+
+ .home_logo:hover{
+  cursor: pointer;
+}
+
+
+.navigation a.active{
+  color: rgb(40, 226, 139);
+  transition-timing-function: ease-in;
+  transition: 0.2s;
+}
+
+.navigation a:hover{
+  color: rgb(40, 139, 226);
+  transition-timing-function: ease-in;
+  transition: 0.2s;
+}
+
+.navigation a{
+  color:#fff;
+  text-decoration: none;
+  padding: 0px 5px;
+  line-height: 34px;
+  font-size: 15px;
+}
