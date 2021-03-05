@@ -1,5 +1,7 @@
 
 import './App.css';
+import FlickityIndex from './components/FlickityIndex';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -8,6 +10,7 @@ function App() {
       </header>
       <div>
         Hello chris
+        <FlickityIndex/>
       </div>
     </div>
   );
