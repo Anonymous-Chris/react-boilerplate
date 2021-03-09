@@ -21,7 +21,7 @@ function App() {
       </header>
       <div>
         Hello chris
-        <h2>Testing CI/CD  in overallDemo</h2>
+        <h2>Testing CI/CD  in overallDemo.</h2>
       </div>
     </div>
   );
